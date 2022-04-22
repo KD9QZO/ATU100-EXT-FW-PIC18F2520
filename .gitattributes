@@ -1,0 +1,13 @@
+#
+# .gitattributes
+#
+
+## GENERAL ##
+
+*				text=auto
+
+
+## SOURCE CODE ##
+
+*.c				eol=lf diff=cpp
+*.h				eol=lf diff=cpp

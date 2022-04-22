@@ -1,0 +1,91 @@
+#
+# .gitignore
+#
+
+# Default Backup & Temp Files
+
+*~
+*.bak
+*.tmp
+
+
+# Ignore thumbnails created by Windows
+
+Thumbs.db
+
+
+# Ignore files built by Visual Studio
+
+*.obj
+*.exe
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.cache
+*.ilk
+*.log
+[Bb]in
+[Dd]ebug*/
+*.lib
+*.sbr
+obj/
+[Rr]elease*/
+_ReSharper*/
+[Tt]est[Rr]esult*
+.vs/
+
+
+# Nuget packages folder
+
+packages/
+
+
+# MPLAB X IDE & Netbeans IDE
+*.d
+*.pre
+*.p1
+*.lst
+*.map
+*.sym
+*.obj
+*.o
+*.sdb
+*.obj.dump
+/html/
+/nbproject/private/
+/nbproject/Package-*.bash
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/nbactions.xml
+/nb-configuration.xml
+/funclist
+/nbproject/Makefile-*
+/disassembly/
+
+
+# doxygen #
+
+/doc/doxygen/doxygen.log
+/doc/doxygen/doxytags.xml
+/doc/doxygen/*.tmp
+/doc/doxygen/def/
+/doc/doxygen/docbook/
+/doc/doxygen/html/
+/doc/doxygen/latex/
+/doc/doxygen/rtf/
+/doc/doxygen/xml/
+
+
+# misc #
+
+stderr.log
